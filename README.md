@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist akbarjoudi/yii2-image-slider "*"
+php composer.phar require akbarjoudi/yii2-image-slider "@dev"
 ```
 
 or add
 
 ```
-"akbarjoudi/yii2-image-slider": "*"
+"akbarjoudi/yii2-image-slider": "@"
 ```
 
 to the require section of your `composer.json` file.
