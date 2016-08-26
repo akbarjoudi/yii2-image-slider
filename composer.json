@@ -1,0 +1,21 @@
+{
+    "name": "akbarjoudi/yii2-image-slider",
+    "description": "Image Slider for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","image","slider","imageSlider"," slider"," widget slider"," yii2slider"," yii2imageslider"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "akbarjoudi",
+            "email": "akbar.joody@gmail.ocm"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aki\\imageslider\\": ""
+        }
+    }
+}
