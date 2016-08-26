@@ -28,4 +28,22 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \aki\imageslider\AutoloadExample::widget(); ?>```
+<?= \aki\imageslider\ImageSlider::widget([
+	'baseUrl' => Yii::getAlias('@web/images'),
+    'nextPerv' => false,
+    'indicators' => false,
+    'height' => '170px',
+    'classes' => 'img-rounded',
+    'images' => [
+        [
+            'active' => true,
+            'src' => 'image/a.jpg',
+            'title' => 'image',
+
+        ],
+        [
+            'src' => 'image/b.jpg',
+            'title' => 'image',
+    	]
+    ],
+]); ?>```
