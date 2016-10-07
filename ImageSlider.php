@@ -3,10 +3,10 @@
 namespace aki\imageslider;
 
 use Yii;
-use common\components\assetbundles\ImageSilderAsset;
+use aki\imageslider\ImageSilderAsset;
 //Yii::setAlias('@view', $path)
 /**
-* @author <akbar.joody@gmail.com>
+* @author <akbar.joody@gmail.com> Akbar Joudi
 */
 class ImageSlider extends \yii\base\Widget
 {
@@ -33,7 +33,7 @@ class ImageSlider extends \yii\base\Widget
 
 	public $height;
         
-        public $classes;
+    public $classes;
 	/**
 	* Description : initialize method
 	*/
@@ -47,6 +47,6 @@ class ImageSlider extends \yii\base\Widget
 	*/
 	public function run()
 	{
-            return $this->render('imageslider', ['widget' => $this]);
+        return $this->render('imageslider', ['widget' => $this]);
 	}
 }

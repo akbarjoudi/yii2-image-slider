@@ -1,5 +1,5 @@
 <?php
-$baseUrl = $this->assetBundles['common\components\assetbundles\ImageSilderAsset']->baseUrl;
+$baseUrl = $widget->baseUrl;
 ?>
 <div id="mycarousel" class="carousel slide" data-ride = "carousel">
 	<?php if($widget->indicators) : ?>
